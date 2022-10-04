@@ -1,0 +1,114 @@
+
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+
+
+
+:root
+{
+  --cor00: #026E81;
+  --cor01: #00ABBD;
+  --cor02: #0099DD;
+  --cor03: #FF9933;
+  --cor04: #A1C7E0;
+
+  --font-h1: 'Poppins', sans-serif;
+  --font-h2: 'Roboto', sans-serif;
+  --font-p1: 'Alkalami', serif;
+  --font-p2: 'Roboto', sans-serif;
+  
+}
+
+body 
+{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(66, 135, 173, 0.652);
+  margin: 0px;
+}
+
+head 
+{
+  background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+  background-color: coral;
+  padding: 10px;
+  margin: 10px;
+}
+
+header>h1 
+{
+  color: rgb(255, 255, 255);
+  font-family: var(--fontedestaque);
+  font-size: 3em;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 0px rgb(0, 0, 0, 0.262);
+}
+
+header>p 
+{
+  font-family: var(--fonte-padrao);
+  font-size: 1, 2em;
+  color: rgb(255, 255, 255);
+  max-width: 600px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin: auto;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
+  box-shadow: 0px 7px 7px black (0, 0, 0, 0.192);
+}
+
+nav 
+{
+  background-color: rgba(228, 54, 89, 0.703);
+  margin: 10px;
+  padding: 3px;
+  box-shadow: 0px 7px 7px black (0, 0, 0, 0.192);
+}
+
+nav>a 
+{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition-duration: 1s;
+  margin-right: 30px;
+}
+
+nav>a:hover 
+{
+  text-decoration: underline;
+  background-color: var(--cor3);
+  color: var(--cor5);
+}
+
+main {
+  background-color: azure;
+  padding: 10px;
+  margin: 10px;
+}
+
+article>p 
+{
+  box-shadow: 0px 7px 7px rgb(red, green, blue);
+  background-color: rgba(226, 94, 85, 0.536);
+  text-align: right;
+  text-align: justify;
+}
+
+footer 
+{
+  background-color: rgba(0, 0, 0, 0.492);
+  color: white;
+  text-align: center;
+  padding: 1px;
+  margin: 10px;
+}
